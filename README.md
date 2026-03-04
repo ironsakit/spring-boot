@@ -31,7 +31,7 @@ Per eseguire questo progetto localmente, assicurati di avere installato:
 
 1. **Clona il repository:**
    ```bash
-   git clone [https://github.com/ironsakit/spring-boot.git](https://github.com/ironsakit/spring-boot.git)
+   git clone https://github.com/ironsakit/spring-boot.git
    cd spring-boot
    ```
 
