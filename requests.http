@@ -2,4 +2,13 @@
 GET http://localhost:8080
 
 ###
-GET http://localhost:8080/api/v1/sotware-engineers
+GET http://localhost:8080/api/v1/sotware-engineers/2
+
+###
+POST http://localhost:8080/api/v1/sotware-engineers
+Content-Type: application/json
+
+{
+  "name": "Sohaib",
+  "techStack": "java, spring-boot, C++"
+}

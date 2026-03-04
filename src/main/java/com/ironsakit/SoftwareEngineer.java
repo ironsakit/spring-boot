@@ -1,11 +1,17 @@
 package com.ironsakit;
 
-import java.util.List;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import java.util.Objects;
 
+@Entity
 public class SoftwareEngineer {
-    private Integer id;  // Identifies an engineer
-    private String name;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;  // Identifies an engineer (Primary key)
+    private String name;  // Columns in our database
     private String techStack;
 
     public SoftwareEngineer() {
