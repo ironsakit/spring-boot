@@ -2,7 +2,7 @@
 
 Questo repository documenta il mio percorso di apprendimento con **Java Spring Boot**. Contiene un progetto creato durante lo studio del framework e lo sviluppo di API RESTful.
 
-## Tecnologie Utilizzate
+## 1) Tecnologie Utilizzate
 
 * **Linguaggio:** [Java](https://www.java.com/)
 * **Framework Principale:** [Spring Boot](https://spring.io/projects/spring-boot)
@@ -10,7 +10,7 @@ Questo repository documenta il mio percorso di apprendimento con **Java Spring B
 * **Containerizzazione:** [Docker](https://www.docker.com/) & Docker Compose (per la gestione facilitata dei servizi esterni come i database)
 * **Test API:** HTTP Client (`requests.http`)
 
-## Struttura del Progetto
+## 2) Struttura del Progetto
 
 Il progetto ha una struttura standard basata su Maven per Spring Boot:
 
@@ -20,14 +20,14 @@ Il progetto ha una struttura standard basata su Maven per Spring Boot:
 * `requests.http` - File contenente le chiamate HTTP pronte per testare direttamente le API dell'applicazione dall'IDE.
 * `mvnw` / `mvnw.cmd` - Script del Maven Wrapper per eseguire build senza aver pre-installato Maven globalmente.
 
-## Prerequisiti
+## 3) Prerequisiti
 
 Per eseguire questo progetto localmente, assicurati di avere installato:
 
 * **Java Development Kit (JDK):** Versione 17 o superiore (a seconda della configurazione nel `pom.xml`).
 * **Docker & Docker Compose:** Se il progetto necessita di un database locale tramite il file `docker-compose.yml`.
 
-## Come Eseguire il Progetto
+## 4) Come Eseguire il Progetto
 
 1. **Clona il repository:**
    ```bash
@@ -52,7 +52,7 @@ Per eseguire questo progetto localmente, assicurati di avere installato:
      mvnw.cmd spring-boot:run
      ```
 
-## Testare le API
+## 5) Testare le API
 
 All'interno del repository è presente un file `requests.http`. 
 Se utilizzi un IDE come **IntelliJ IDEA** o estensioni come **REST Client per VS Code**, puoi aprire questo file ed eseguire direttamente le richieste HTTP documentate per testare gli endpoint.
